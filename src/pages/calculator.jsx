@@ -20,7 +20,7 @@ export default function MortgageCalculator() {
       <h2 className="mortgage-title">Mortgage Calculator</h2>
 
       <div className="slider-container">
-        <label>Loan Amount ($): {principal}</label>
+        <label>Loan Amount (inr): {principal}</label>
         <input
           type="range"
           min="50000"
