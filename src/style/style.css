@@ -1,0 +1,223 @@
+/* Reset default margins and paddings */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: rgb(14, 124, 14);
+}
+
+/* Fixed header */
+.header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color:rgb(5, 100, 5);
+    height: 100px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    gap: 50px;
+    z-index: 1000;
+    padding-left: 20px; /* Ensures space on left */
+}
+
+/* Name styling */
+.name {
+    color: white;
+    font-weight: 300;
+    font-size: larger;
+    position: relative;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, border-radius 0.5s;
+}
+
+.name:hover {
+    background-color: white;
+    color: black;
+    border-radius: 200px;
+}
+
+/* Logo adjustments */
+.logo {
+    font-style: oblique;
+    color: white;
+}
+
+/* Background section */
+.bg {
+    background-color: rgb(14, 124, 14);
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Heading inside the background */
+.heading {
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    font-weight: bold;
+    width: 10px;
+}
+
+.img{
+    position: relative;
+    top: 40px;
+    right: 300px;
+    height: 500px;
+}
+.btn{
+    position: relative;
+    top: 200px;
+    left: 10px;
+    padding: 20px;
+    border-radius: 100px;
+    width: 220px;
+    background-color:  rgb(0, 255, 0);
+    color: black;
+    transition: background-color 0.2s ease-in-out, color 0.5s ease-in-out, border-radius 0.5s;
+}
+.btn:hover{
+background-color: rgb(14, 124, 14) ;
+border: 0cap;
+}
+/*ABOUT PAGE */
+.about{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.ab1{
+color: rgb(255, 255, 255);
+position: relative;
+top: 190px;
+right: -500px;
+width: 400px;
+
+}
+.ab2{
+    color: black;
+    position: relative;
+    top: 300px;
+    right: 150px;
+}
+
+/*start page */
+
+.start{
+    position: relative;
+    right: 80px;
+}
+.st1{
+position: relative;
+top: 25px;
+left: 620px;
+font-size: 28px;
+    
+}
+.st2{
+    position: relative;
+    top: 10px;
+    left: 550px;
+    font-size: 30px;
+}
+.btnc{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.btne {
+    height: 70px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.678);
+    color: black;
+    border: none;
+    font-size: 16px;
+    position: relative;
+    left: 480px;
+    border: 2px solid black; 
+    font-weight: bolder;
+    top: 50px;
+
+}
+
+.btne:hover{
+    border: 4px solid rgb(0, 0, 0);
+}
+
+
+
+/*calculator */
+.mortgage-container{
+    position: relative;
+    left: 500px;
+}
+.mortgage-calculator {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.mortgage-calculator h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.slider-container {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.slider-container label {
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.slider-container input {
+  width: 100%;
+  cursor: pointer;
+}
+
+.calculate-button {
+  width: 100%;
+  background-color: #2563eb;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.calculate-button:hover {
+  background-color: #1d4ed8;
+}
+
+.result {
+  margin-top: 15px;
+  padding: 10px;
+  background: #d1fae5;
+  color: #065f46;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
